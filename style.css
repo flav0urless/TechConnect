@@ -94,3 +94,34 @@
 }
 
 
+/*site loader*/
+/* Center the loading container */
+#loading-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1000;
+}
+
+/* Pill-shaped progress bar styles */
+#progress-container {
+  width: 300px; 
+  height: 20px; 
+  background: #f0f0f0;
+  border-radius: 10px; 
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0;
+  background: #007BFF; 
+  border-radius: 10px; 
+}
+
+/* Loading text styles */
+#loading-text {
+  font-size: 18px; 
+  margin-bottom: 10px;
+}
